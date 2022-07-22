@@ -17,4 +17,8 @@ export class HeaderComponent implements OnInit {
   getCart(){
     this.route.navigate(['/cart'])
   }
+
+  getHome(){
+    this.route.navigate([''])
+  }
 }

@@ -7,7 +7,7 @@
 
   <ul class="container_list">
     <li><img class="shaft" src="../../assets/img/logo/left_icon.png" alt=""></li>
-    <li class="container_item">
+    <li class="container_item" (click)="getProducts()">
       <div class="container_tags_products">
         <span class="tag_percen">-30%</span>
         <span class="tag_info">Novo</span>
@@ -26,7 +26,7 @@
       <p class="split_value">Em até 3x de <strong>R$ 33,00</strong></p>
       <button class="buy-button">Comprar</button>
     </li>
-    <li class="container_item">
+    <li class="container_item" (click)="getProducts()">
       <div class="container_tags_products_single">
         <span class="tag_info">FRETE GRÁTIS</span>
       </div>
@@ -43,7 +43,7 @@
       <p class="split_value">Em até 6x de <strong>R$ 33,00</strong></p>
       <button class="buy-button">Comprar</button>
     </li>
-    <li class="container_item">
+    <li class="container_item" (click)="getProducts()">
       <img src="../../assets/img/home/realeses/shoes.png" alt="">
       <div class="container-product_size">
         <p class="product_size"> P</p>
@@ -57,7 +57,7 @@
       <p class="split_value">Em até 6x de <strong>R$ 91,50</strong></p>
       <button class="buy-button">Comprar</button>
     </li>
-    <li class="container_item">
+    <li class="container_item" (click)="getProducts()">
       <div class="container_tags_products_single">
         <span id="tag_bag" class="tag_info">Novo</span>
       </div>
@@ -83,7 +83,7 @@
 
   <ul class="container_list">
     <li><img class="shaft" src="../../assets/img/logo/left_icon.png" alt=""></li>
-    <li class="container_item">
+    <li class="container_item" (click)="getProducts()">
       <img src="../../assets/img/home/best-sellers/pink_bottle.png " alt="bottle">
       <div class="container-product_size_single">
         <p class="product_size">U</p>
@@ -93,7 +93,7 @@
       <p class="split_value">Em até 6x de <strong>R$ 30,00</strong></p>
       <button class="buy-button">Comprar</button>
     </li>
-    <li class="container_item">
+    <li class="container_item" (click)="getProducts()">
       <div class="container_tags_products_single">
         <span class="tag_percen">-30%</span>
       </div>
@@ -110,7 +110,7 @@
       <p class="split_value">Em até 3x de <strong>R$ 33,00</strong></p>
       <button class="buy-button">Comprar</button>
     </li>
-    <li class="container_item">
+    <li class="container_item" (click)="getProducts()">
       <img src="../../assets/img/home/best-sellers/mug.png" alt="mug">
       <div class="container-product_size_single">
         <p class="product_size">U</p>
@@ -120,7 +120,7 @@
       <p class="split_value">Em até 6x de <strong>R$ 30,00</strong></p>
       <button class="buy-button">Comprar</button>
     </li>
-    <li class="container_item">
+    <li class="container_item" (click)="getProducts()">
       <img src="../../assets/img/home/best-sellers/bottons.png" alt="bottons">
       <div class="container-product_size_single">
         <p class="product_size">U</p>
@@ -146,7 +146,7 @@
   <label for="" class="sub-title">Ofertas imperdíveis</label>
   <ul class="container_list">
     <li><img class="shaft" src="../../assets/img/logo/left_icon.png" alt=""></li>
-    <li *ngFor="let item of items" class="container_item">
+    <li *ngFor="let item of items" class="container_item" (click)="getProducts()">
       <div class="container_tags_products">
         <span class="tag_percen">-30%</span>
         <span class="tag_info">Novo</span>

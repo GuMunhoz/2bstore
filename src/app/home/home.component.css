@@ -4,7 +4,6 @@
   font-family: var(--unnamed-font-family-urbanist);
   width: 100%;
   display: grid;
-  /* grid-template-rows: repeat(5,1fr); */
   grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr 1.6fr;
   overflow: auto;
   row-gap: 3rem;
@@ -14,16 +13,6 @@
   height: 27.5rem;
   background: no-repeat padding-box;
   opacity: 1;
-}
-
-.sub-title {
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--azul-universe-darkest);
-  text-align: center;
-  font: normal normal bold 24px/29px Urbanist;
-  text-transform: var(--unnamed-text-transform-uppercase);
-  opacity: 1;
-  margin: 1rem;
 }
 
 .box_content {
@@ -55,7 +44,6 @@
 .tag_info {
   min-width: 34px;
   background: var(--azul-universe-dark) 0% 0% no-repeat padding-box;
-  /* background: #545073 0% 0% no-repeat padding-box; */
   color: var(--rosa-2b-lightest);
   border-radius: 2px;
   opacity: 1;
@@ -64,22 +52,6 @@
   text-transform: var(--unnamed-text-transform-uppercase);
   font: var(--unnamed-font-style-normal) normal 800 var(--unnamed-font-size-10) /
     var(--unnamed-line-spacing-12) var(--unnamed-font-family-urbanist);
-}
-.tag_percen {
-  font: var(--unnamed-font-style-normal) normal 800 var(--unnamed-font-size-10) /
-  var(--unnamed-line-spacing-12) var(--unnamed-font-family-urbanist);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--rosa-2b-lightest);
-  text-align: left;
-  font: normal normal 800 10px/12px Urbanist;
-  letter-spacing: 0px;
-  text-transform: uppercase;
-  opacity: 1;
-  background-color: var(--rosa-2b-dark);
-  width: 34px;
-  text-align: center;
-  padding: 0.2rem;
-  border-radius: 2px;
 }
 
 .container_item:hover > .buy-button {

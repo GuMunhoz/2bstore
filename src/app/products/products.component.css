@@ -1,0 +1,242 @@
+@import "../../styles/layouts.css";
+
+.container {
+  font-family: var(--unnamed-font-family-urbanist);
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0.2fr 0.2fr 1.5fr;
+  overflow: auto;
+  background: var(--neutral-lightest) 0% 0% no-repeat padding-box;
+}
+
+.box-1 {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 3rem;
+}
+
+.box-2 {
+  height: 416px;
+  background: var(--rosa-2b-lightest) 0% 0% no-repeat padding-box;
+}
+
+.box-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list_mini-picture {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.img-product {
+  width: 64px;
+  height: 64px;
+  border: 1px solid var(--neutral-light);
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.content-picture > img {
+  width: 480px;
+  height: 480px;
+  background: transparent no-repeat padding-box;
+  opacity: 1;
+}
+
+.container-info_product-select {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.container-info_product-select > .product-select_title {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-20) / var(--unnamed-line-spacing-24)
+    var(--unnamed-font-family-urbanist);
+  letter-spacing: var(--unnamed-character-spacing-1);
+  color: var(--azul-universe-darkest);
+  text-align: left;
+  width: 396px;
+  height: 48px;
+  margin-bottom: 0.8rem;
+}
+.container-info_product-select > .product-select_ref {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-12) /
+    var(--unnamed-line-spacing-14) var(--unnamed-font-family-urbanist);
+  letter-spacing: var(--unnamed-character-spacing-0-6);
+  color: var(--azul-universe-darkest);
+  text-align: left;
+}
+
+.container-info_product-select > .product-select-container_prices {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--azul-universe-light);
+  border-top: 1px solid var(--azul-universe-light);
+  width: 396px;
+  height: 61px;
+  margin: 1rem 0 1rem 0;
+}
+
+.split_value {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-12) /
+    var(--unnamed-line-spacing-14) var(--unnamed-font-family-urbanist);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--azul-universe-darkest);
+  text-align: center;
+  opacity: 1;
+  margin-left: 1rem;
+}
+.split_value > strong {
+  color: var(--rosa-2b-dark) !important;
+  font-weight: var(--unnamed-font-weight-bold) !important;
+}
+
+.container-product_size:hover {
+  display: grid;
+  width: 270px;
+  margin: 1rem 0 2rem 0;
+}
+
+.container-shipping {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  margin-top: 1.5rem;
+}
+
+.shipping_params {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  justify-content: space-between;
+}
+
+.shipping_params > form > .input-cep {
+  width: 120px;
+  height: 40px;
+  border: 1px solid var(--neutral-medium);
+  border-radius: 20px;
+  opacity: 1;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-14) /
+    var(--unnamed-line-spacing-21) var(--unnamed-font-family-urbanist);
+  letter-spacing: var(--unnamed-character-spacing-0-7);
+  text-align: center;
+  letter-spacing: 0.7px;
+  opacity: 1;
+}
+.shipping_params > form > .input-cep:focus {
+  border: var(--rosa-2b-dark);
+}
+
+.without-cep {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-12) /
+    var(--unnamed-line-spacing-14) var(--unnamed-font-family-urbanist);
+  letter-spacing: var(--unnamed-character-spacing-0-6);
+  color: var(--rosa-2b-dark);
+  text-align: right;
+  font: normal normal normal 12px/14px Urbanist;
+  letter-spacing: 0.6px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.without-cep:hover {
+  color: var(--rosa-2b-dark);
+  text-decoration: underline;
+}
+.container-price_shipping,
+.container-size-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-price_shipping > .container-info_shipping {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px dashed var(--azul-universe-light);
+  border-bottom: 1px dashed var(--azul-universe-light);
+}
+.container-info_shipping > .info_shipping {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.type-shipping,
+.time_shipping {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-14) /
+    var(--unnamed-line-spacing-21) var(--unnamed-font-family-urbanist);
+  letter-spacing: var(--unnamed-character-spacing-0-7);
+  color: var(--azul-universe-darkest);
+  text-align: left;
+  opacity: 1;
+  margin: 0.2rem 0 0.2rem 0;
+}
+
+.time_shipping {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-12) /
+    var(--unnamed-line-spacing-14) var(--unnamed-font-family-urbanist) !important;
+}
+.price_shipping {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-14) / var(--unnamed-line-spacing-21)
+    var(--unnamed-font-family-urbanist);
+  letter-spacing: var(--unnamed-character-spacing-0-7);
+  color: var(--azul-universe-darkest);
+  text-align: right;
+  opacity: 1;
+}
+.price-shipping_info {
+  margin: 0.2rem 1rem 0 0;
+}
+
+.container-descripton_item {
+  display: flex;
+  margin-left: 12%;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+#description-product_label {
+  width: 98px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-20) / var(--unnamed-line-spacing-24)
+    var(--unnamed-font-family-urbanist);
+  letter-spacing: var(--unnamed-character-spacing-1);
+  color: var(--azul-universe-darkest);
+  text-align: left;
+}
+
+.descripiton_text,
+.description_detail {
+  width: 711px;
+  height: 248px;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-14) /
+    var(--unnamed-line-spacing-21) var(--unnamed-font-family-urbanist);
+  letter-spacing: var(--unnamed-character-spacing-0-7);
+  color: var(--azul-universe-darkest);
+  text-align: left;
+  margin: 1rem 0 0 0;
+  height: 130px;
+}
+
+.description_detail {
+  width: 170px;
+  height: 157px;
+  margin: 0;
+}

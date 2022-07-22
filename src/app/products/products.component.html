@@ -1,1 +1,164 @@
-<p>products works!</p>
+<main class="container">
+  <section class="box-1">
+    <div class="mini-picture">
+      <ul class="list_mini-picture">
+        <li>
+          <img
+            class="img-product"
+            src="../../assets/img/home/realeses/t-shirt_black.png"
+            alt="black t-shirt"
+          />
+        </li>
+        <li>
+          <img
+            class="img-product"
+            src="../../assets/img/home/best-sellers/t-shirt_pink.png"
+            alt="pink t-shirt"
+          />
+        </li>
+        <li>
+          <img
+            class="img-product"
+            src="../../assets/img/home/realeses/t-shirt_black.png"
+            alt="black t-shirt"
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="content-picture">
+      <img
+        src="../../assets/img/home/realeses/t-shirt_black.png"
+        alt="black t-shirt"
+      />
+    </div>
+    <div class="container-info_product-select">
+      <p class="product-select_title">
+        T-shirt Unissex 2b Yourself Preta Estampa Grafismo
+      </p>
+      <p class="product-select_ref">Ref.: 2B2022TIB</p>
+      <section class="product-select-container_prices">
+        <p class="price_item"><s class="old_price">R$ 152,00 </s> R$ 99,00</p>
+        <p class="split_value">Em até 3x de <strong>R$ 33,00</strong></p>
+      </section>
+      <section class="container-size-product">
+        <label class="size-product_label">
+          <strong>Tamanho</strong> Selecione</label
+        >
+        <div class="container-product_size">
+          <p class="product_size-disabled">P</p>
+          <p class="product_size" (click)="selected()">M</p>
+          <p class="product_size" (click)="selected()">G</p>
+          <p class="product_size" (click)="selected()">GG</p>
+          <p class="product_size" (click)="selected()">XG</p>
+        </div>
+        <button class="add-cart-button">ADICIONAR AO CARRINHO</button>
+      </section>
+      <section class="container-shipping">
+        <label class="shipping_label">Calcular frete e prazo</label>
+        <hr />
+        <div class="shipping_params">
+          <form action="">
+            <input class="input-cep" type=" number" placeholder="01234-00" />
+          </form>
+          <button class="shipping-button">Calcular</button>
+          <label class="without-cep">Não sei o CEP</label>
+        </div>
+      </section>
+      <section class="container-price_shipping">
+        <div class="container-info_shipping">
+          <div class="info_shipping">
+            <p class="type-shipping">Frete Expresso</p>
+            <p class="time_shipping">2 à 6 dias</p>
+          </div>
+          <div class="price-shipping_info">
+            <p class="price_shipping">R$ 19,90</p>
+          </div>
+        </div>
+        <div class="container-info_shipping">
+          <div class="info_shipping">
+            <p class="type-shipping">Normal</p>
+            <p class="time_shipping">4 à 15 dias</p>
+          </div>
+          <div class="price-shipping_info">
+            <p class="price_shipping">R$ 12,90</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+  <section class="box-2">
+    <div class="container-descripton_item">
+      <label id="description-product_label">Descrição</label>
+      <p class="descripiton_text">
+        T-shirt Unissex 2b Yourself Preta Estampa Grafismo Manga Curta.
+        Desenvolvida em meia malha de algodão super cotton, a peça conta com a
+        modelagem comfort, sendo um pouco mais ampla que a tradicional, além
+        disso, na parte frontal exibe estampa localizada. As Camisetas 2b trazem
+        o conforto extremo, ela é mais soltinha do corpo com corte reto e
+        garante um caimento diferenciado ao vestir. Investir nessa camiseta é
+        investir no essencial, no básico, e no atemporal.
+      </p>
+      <p class="description_detail">
+        Descrição cor: Preta Peso: 0.268 Composição: 100% Algodao Fabricante:
+        Hering Mercadoria: Nacional
+      </p>
+    </div>
+  </section>
+
+  <section class="box-3">
+
+      <label for="" class="sub-title">OS MAIS VENDIDOS </label>
+
+      <ul class="container_list">
+        <li><img class="shaft" src="../../assets/img/logo/left_icon.png" alt=""></li>
+        <li class="container_item">
+          <img src="../../assets/img/home/best-sellers/pink_bottle.png " alt="bottle">
+          <div class="container-product_size_single">
+            <p class="product_size">U</p>
+          </div>
+          <p class="description_item">Garrafa 500ml Lets Drink Some Water</p>
+          <p class="price_item"> R$ 60,00</p>
+          <p class="split_value">Em até 6x de <strong>R$ 30,00</strong></p>
+          <button class="buy-button">Comprar</button>
+        </li>
+        <li class="container_item">
+          <div class="container_tags_products_single">
+            <span class="tag_percen">-30%</span>
+          </div>
+          <img src="../../assets/img/home/best-sellers/t-shirt_pink.png " alt="pink_t-shirt">
+          <div class="container-product_size">
+            <p class="product_size"> P</p>
+            <p class="product_size"> M</p>
+            <p class="product_size"> G</p>
+            <p class="product_size"> GG</p>
+            <p class="product_size"> XG</p>
+          </div>
+          <p class="description_item">T-shirt Unissex 2b Yourself Rosa</p>
+          <p class="price_item"><s class="old_price">R$ 152,00 </s> R$ 99,00</p>
+          <p class="split_value">Em até 3x de <strong>R$ 33,00</strong></p>
+          <button class="buy-button">Comprar</button>
+        </li>
+        <li class="container_item">
+          <img src="../../assets/img/home/best-sellers/mug.png" alt="mug">
+          <div class="container-product_size_single">
+            <p class="product_size">U</p>
+          </div>
+          <p class="description_item">Caneca 2bdigital</p>
+          <p class="price_item">R$ 60,00</p>
+          <p class="split_value">Em até 6x de <strong>R$ 30,00</strong></p>
+          <button class="buy-button">Comprar</button>
+        </li>
+        <li class="container_item">
+          <img src="../../assets/img/home/best-sellers/bottons.png" alt="bottons">
+          <div class="container-product_size_single">
+            <p class="product_size">U</p>
+          </div>
+          <p class="description_item">Kit 4 Bottons 2b Waves</p>
+          <p class="price_item">R$ 15,00</p>
+          <button class="buy-button">Comprar</button>
+        </li>
+        <li><img class="shaft" src="../../assets/img/logo/right_icon.png" alt=""></li>
+      </ul>
+
+  </section>
+</main>
